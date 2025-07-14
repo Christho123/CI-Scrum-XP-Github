@@ -2,7 +2,7 @@ name: Validación Frontend
 
 on:
   push:
-    branches: [main]  # Puedes cambiar 'main' por otra rama si la usas
+    branches: [main]  # Puedes cambiar 'main' por otra rama si la usass
 
 jobs:
   validar:
