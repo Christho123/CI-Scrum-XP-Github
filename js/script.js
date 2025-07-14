@@ -11,7 +11,7 @@ function convertir() {
   let resultado = convertirTemperatura(valor, de, a);
 
   document.getElementById("resultado").textContent =
-    Resultado: ${resultado.toFixed(2)} °${a};
+    `Resultado: ${resultado.toFixed(2)} °${a}`;
 
   guardarEnHistorial(valor, de, a, resultado);
   mostrarHistorial();
