@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: pinga
+      - name: Clonar el repositorio
         uses: actions/checkout@v4
 
-      - name: gadiel
+      - name: Verificar Codigo HTML
         run: ls -R
 
       - name: Verificar Codigo HTML
