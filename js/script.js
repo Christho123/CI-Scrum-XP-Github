@@ -30,3 +30,36 @@ function convertirTemperatura(valor, de, a) {
     default: return valor;
   }
 }
+
+function guardarEnHistorial(valor, de, a, resultado) {
+  let historial = JSON.parse(localStorage.getItem("historial")) || [];
+  historial.push({ valor, de, a, resultado });
+  localStorage.setItem("historial", JSON.stringify(historial));
+}
+
+function mostrarHistorial() {
+  const historial = JSON.parse(localStorage.getItem("historial")) || [];
+  const tabla = document.getElementById("tabla-historial");
+  tabla.innerHTML = "";
+
+  historial.forEach((item) => {
+    const fila = document.createElement("tr");
+    fila.innerHTML = `
+      <td>${item.valor} °${item.de}</td>
+      <td>${item.de}</td>
+      <td>${item.a}</td>
+      <td>${item.resultado.toFixed(2)} °${item.a}</td>
+    `;
+    tabla.appendChild(fila);
+  });
+}
+
+function limpiarHistorial() {
+  if (confirm("¿Estás seguro de que deseas borrar el historial?")) {
+    localStorage.removeItem("historial");
+    mostrarHistorial();
+    document.getElementById("resultado").textContent = "";
+  }
+}
+
+window.onload = mostrarHistorial;
