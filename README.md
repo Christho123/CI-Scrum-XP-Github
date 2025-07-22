@@ -18,16 +18,14 @@ Desarrollar un conversor de temperaturas funcional y confiable que permita conve
 
 | Tarea                                                                                                      | Gadiel (G) | Edson (ER) | Christopher (CS) |
 |------------------------------------------------------------------------------------------------------------|:----------:|:----------:|:----------------:|
-| Crear estructura base del HTML con input de valor, select de unidad origen y destino, botón de conversión.
-                  |     X      |            |                  |
-| Implementar función JavaScript para convertir entre las 6 combinaciones de temperatura.                                                                  |          |            |        X          |
-| Agregar opción para guardar cada conversión en un historial (array o lista).
- |          |       X     |                  |
-| Estilizar la interfaz con CSS básico para buena presentación y legibilidad.                                
-|    X        |          |                  |
-| Asegurar que el sistema sea compatible con pantallas pequeñas (responsive básico).                           |            |            |        X         ||
+| Crear estructura base del HTML con input de valor, select de unidad origen y destino, botón de conversión |     X      |            |                  |
+| Implementar función JavaScript para convertir entre las 6 combinaciones de temperatura                     |            |            |        X         |
+| Agregar opción para guardar cada conversión en un historial (array o lista)                                |            |     X      |                  |
+| Estilizar la interfaz con CSS básico para buena presentación y legibilidad                                 |     X      |            |                  |
+| Asegurar que el sistema sea compatible con pantallas pequeñas (responsive básico)                          |            |            |        X         |
 | Subir proyecto a GitHub                                                                                    |            |     X      |                  |
 | Documentar en el README.md                                                                                 |            |     X      |                  |
+
 
 ---
 
