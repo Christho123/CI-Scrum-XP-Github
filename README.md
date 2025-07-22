@@ -1,5 +1,3 @@
-# CI-Scrum-XP-Github
-
 #  Proyecto: App de conversion de Temperatura
 
 Este proyecto tiene como finalidad crear una página web responsive que permita al usuario convertir la temperatura en grados Celsius, Fahrenheit y Kelvin. Tambien, permite visualizar las conversiones y poder eliminar el historial de converione.
@@ -74,3 +72,5 @@ Características:
 ✅ Botón para convertir.
 ✅ Botón para limpiar historial.
 ✅ Guardado del historial en el navegador.
+
+
