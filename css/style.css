@@ -109,7 +109,7 @@ th, td {
   padding: 8px;
   text-align: center;
   border-bottom: 1px solid #eee;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 th {
